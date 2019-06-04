@@ -28,6 +28,7 @@
 		<module>decorator</module>
 		<module>facade</module>
 		<module>factory</module>
+		<module>factoryMethod</module>
 		<module>flyweight</module>
 		<module>interpreter</module>
 		<module>iterator</module>
