@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>abstractFactory</artifactId>
-	
+
 	<packaging>jar</packaging>
 
 	<name>abstractFactory</name>
@@ -16,6 +16,13 @@
 		<artifactId>designPattern</artifactId>
 		<version>1.0.0</version>
 	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+	</dependencies>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
