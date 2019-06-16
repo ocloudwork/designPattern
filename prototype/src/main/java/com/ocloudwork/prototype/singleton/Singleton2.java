@@ -1,4 +1,4 @@
-package singleton;
+package com.ocloudwork.prototype.singleton;
 
 /**
  * 饿汉式（静态代码块）[可用] 
@@ -8,9 +8,9 @@ package singleton;
  * @author minghui
  *
  */
-public class Singleton2 {
+public class Singleton2 implements Cloneable{
 
-	private static Singleton2 instance;
+	private final static Singleton2 instance;
 
 	static {
 		instance = new Singleton2();
@@ -23,6 +23,12 @@ public class Singleton2 {
 	}
 
 	public static Singleton2 getInstance() {
+		return instance;
+	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		//return super.clone();
 		return instance;
 	}
 }
