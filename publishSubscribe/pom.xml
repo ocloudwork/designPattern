@@ -4,26 +4,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>observer</artifactId>
+	<artifactId>publishSubscribe</artifactId>
 	
 	<packaging>jar</packaging>
 
-	<name>observer</name>
-	<description>观察者模式</description>
+	<name>publishSubscribe</name>
+	<description>发布订阅模式</description>
 
 	<parent>
 		<groupId>com.ocloudwork</groupId>
 		<artifactId>designPattern</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	
-	<dependencies>
-	   <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>27.1-jre</version>
-        </dependency>
-	</dependencies>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

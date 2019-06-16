@@ -37,6 +37,8 @@
 		<module>observer</module>
 		<module>prototype</module>
 		<module>proxy</module>
+		<module>proxy</module>
+		<module>publishSubscribe</module>
 		<module>responsibilityChain</module>
 		<module>singleton</module>
 		<module>state</module>
